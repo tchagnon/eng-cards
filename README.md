@@ -17,7 +17,7 @@ interfere with normal typing
 To type "jj" without triggering escape, just wait a couple seconds between each
 character.
 
-[VimTips Wiki](vim.wikia.com/wiki/Avoid_the_escape_key)
+[VimTips Wiki](http://vim.wikia.com/wiki/Avoid_the_escape_key)
 
 ### Instantly preview Markdown from Vim
 
