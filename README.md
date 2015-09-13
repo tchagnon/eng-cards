@@ -34,7 +34,21 @@ uses!
 
 ![Screenshot](http://dl.dropbox.com/u/28956267/instant-markdown-demo_thumb.gif)
 
-[View on GitHub](https://github.com/suan/vim-instant-markdown)
+[vim-instant-markdown on GitHub](https://github.com/suan/vim-instant-markdown)
+
+### Use a Vim-style editor in XCode
+
+Sometimes IDEs are a necessary evil.  For OO languages and large APIs
+or codebases, they can be especially useful.  And XCode has some great features
+for building stunning UIs.  But you don't have to give up your the speed and
+efficiency of your favorite editor, Vim!
+
+![screenshot](http://cdn-ak.f.st-hatena.com/images/fotolife/g/griefworker/20131101/20131101202840.png)
+
+Install the **XVim plugin** and get a rich set of vim features and keybindings
+right inside XCode's editor.
+
+[XVim on GitHub](https://github.com/XVimProject/XVim)
 
 ## Swift
 
@@ -71,4 +85,4 @@ a range that includes both values.
 Mount an Android device on the back of a two-way mirror to display date,
 time, weather, birthday reminders, chore reminders, stock prices, XKCD, etc.
 
-[View on GitHub](https://github.com/HannahMitt/HomeMirror)
+[HomeMirror on GitHub](https://github.com/HannahMitt/HomeMirror)
