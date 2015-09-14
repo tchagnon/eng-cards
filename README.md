@@ -113,4 +113,62 @@ The above command will list the definition for genesis as follows:
 
     1. the act of producing, or giving birth or origin to anything. 
 
-###
+###Customize cURL's Output
+
+Normally, when you use cURL you use the command
+
+    $curl -IL "ulr"
+
+The above command would send a HEAD request (-I), follow all redirects (-L), and display some useful information: 
+
+    HTTP/1.1 200 OK
+    Date: Mon, 14 Sep 2015 08:57:17 GMT
+    Expires: -1
+    Cache-Control: private, max-age=0
+    Content-Type: text/html; charset=ISO-8859-1
+    P3P: CP="This is not a P3P policy! See http://www.google.com/support/accounts/bin/answer.py?hl=en&answer=151657 for more info."
+    Server: gws
+    X-XSS-Protection: 1; mode=block
+    X-Frame-Options: SAMEORIGIN
+    Set-Cookie: PREF=ID=1111111111111111:FF=0:TM=1442221037:LM=1442221037:V=1:S=0D6fmKXKZeC7wtqi; expires=Thu, 31-Dec-2015 16:02:17 GMT; path=/; domain=.google.com
+    Set-Cookie: NID=71=XvDbVOyhmtTu7Un1KojuMxqXI6moknK_u-OIBlVZ8sbtsYZ8HotHRryJoPAyOP4Wo6fFLZgHIfyL8isO4wIrIM_rgmTExQ_dHIwJrpsfyaJTs-XYxPclnIAammkjtP6K; expires=Tue, 15-Mar-2016 08:57:17 GMT; path=/; domain=.google.com; HttpOnly
+    Transfer-Encoding: chunked
+    Accept-Ranges: none
+    Vary: Accept-Encoding
+
+But what if you're only interested in a subset of the standard cURL output? cURL provides special variables for customizing output. The following command only prints the http status code of the request and redirects curl's HTML output to /dev/null. 
+
+    $curl -sL -w "%{http_code} % {url_effective} \\n" "URL" -o /dev/null
+
+The above command results in the following output: 
+
+    200 HTTP://www.google.com/
+
+Here are the other special variables available in case you want to customize the output some more. 
+
+    url_effective, http_code, http_connect, time_total, time_namelookup, time_connect, time_pretransfer, time_redirect, time_starttransfer, size_download, size_upload, size_header, size_request, speed_download, speed_upload, content_type, num_connects, num_redirects, ftp_entry_path
+
+###Open Source Projects
+
+##Neovim - Next Generation Vim Text Editor 
+
+The Vim text editor has been loved by a generation of users. We're aggressively refactoring Vim to ensure it stays relevant in the future. 
+
+**More Powerful Plugins**
+Neovim is rebuilding the plugin architecture from the ground up to provide a system that allows for extensions in any language and will be backwards compatible with your old plugins. 
+
+**Better GUI Architecture**
+Neovim will focus on providing a headless text editing environment. This will allow any GUI to be written that ties into the native GUI of whatever os it is running on. 
+
+**First Class Support for Embedding**
+Any program will be able to include NeoVim commands right in the application. 
+
+![Screenshot](https://raw.githubusercontent.com/junegunn/i/master/vim-plug/nvim.gif)
+
+[neovim on GitHub](https://github.com/neovim/neovim)
+
+
+
+
+
+    
