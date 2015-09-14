@@ -50,6 +50,16 @@ right inside XCode's editor.
 
 [XVim on GitHub](https://github.com/XVimProject/XVim)
 
+## Manage Vim plugins with Vundle
+
+Automatically manage all of your vim plugins and scripts with Vundle, a plugin
+manager for Vim.  Gone are the days of manually downloading, extracting and
+installing files into `~/.vim`.  Vundle makes installing, updating and
+configuring all your plugins simple.  Just refer to each plugin's GitHub repo in
+your `~/.vimrc`
+
+![vundle-installer-screenshot](http://i.imgur.com/Rueh7Cc.png)
+
 ## Swift
 
 ### Range Operators
