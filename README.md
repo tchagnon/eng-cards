@@ -117,7 +117,7 @@ The above command will list the definition for genesis as follows:
 
 Normally, when you use cURL you use the command
 
-    $curl -IL "ulr"
+    $curl -IL "url"
 
 The above command would send a HEAD request (-I), follow all redirects (-L), and display some useful information: 
 
@@ -155,12 +155,15 @@ Here are the other special variables available in case you want to customize the
 The Vim text editor has been loved by a generation of users. We're aggressively refactoring Vim to ensure it stays relevant in the future. 
 
 **More Powerful Plugins**
+
 Neovim is rebuilding the plugin architecture from the ground up to provide a system that allows for extensions in any language and will be backwards compatible with your old plugins. 
 
 **Better GUI Architecture**
+
 Neovim will focus on providing a headless text editing environment. This will allow any GUI to be written that ties into the native GUI of whatever os it is running on. 
 
 **First Class Support for Embedding**
+
 Any program will be able to include NeoVim commands right in the application. 
 
 ![Screenshot](https://raw.githubusercontent.com/junegunn/i/master/vim-plug/nvim.gif)
