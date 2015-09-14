@@ -170,7 +170,23 @@ Any program will be able to include NeoVim commands right in the application.
 
 [neovim on GitHub](https://github.com/neovim/neovim)
 
+##CockroachDB - Google Scale for the Masses
 
+Finally, a db as indestructible as a cockroach. While at Google we fell in love with Spanner, Google's solution to juggling data between millions of database servers, so we decided to create an open source project to bring that scalability to the masses. 
+
+**Automated Scaling / Repair**
+
+CockroachDB will allow you to add resources to scale horizontally, with zero hassle and no downtime. It will self-organize, self-heal, and automatically rebalance.
+
+**Strong Consistency**
+
+CockroachDB will implement consistent replication via majority consensus between replicas. 
+
+**Distributed Transactions**
+
+CockroachDB will implement efficient, full-serializable distributed transations. 
+
+[CockroachDB on GitHub](https://github.com/cockroachdb/cockroach)
 
 
 
