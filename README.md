@@ -96,3 +96,21 @@ Mount an Android device on the back of a two-way mirror to display date,
 time, weather, birthday reminders, chore reminders, stock prices, XKCD, etc.
 
 [HomeMirror on GitHub](https://github.com/HannahMitt/HomeMirror)
+
+## cURL
+
+###Word Definitions from the Command Line
+
+You can use cURL to get the definition for a word with the help of the DICT protocol. Just pass a Dictionary Server URL to it and the word you want the definition for. 
+
+    $curl dict://dict.org/d:genesis
+
+The above command will list the definition for genesis as follows: 
+
+    "genesis" gcide "The Collaborative International Dictionary of English v.0.48" Genesis \Gen"e*sis\, n. [L., from Gr. ge'nesis, fr. the root of gi'gnesqai to geget, be born; akin to L. genus birth, race. See {Gender}. ]
+
+    [1913 Webster]
+
+    1. the act of producing, or giving birth or origin to anything. 
+
+###
