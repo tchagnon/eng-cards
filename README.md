@@ -95,4 +95,4 @@ a range that includes both values.
 Mount an Android device on the back of a two-way mirror to display date,
 time, weather, birthday reminders, chore reminders, stock prices, XKCD, etc.
 
-[HomeMirror on GitHub](https://github.com/HannahMitt/HomeMirror).
+[HomeMirror on GitHub](https://github.com/HannahMitt/HomeMirror)
