@@ -215,12 +215,12 @@ When your application crashes and the device isn't connected to a computer you s
 
 In order to use adb with a device connected over USB, you must enable USB debugging in the device system settings under Developer options. 
 
-Open your terminal and type in the following command to dump the log to the screen. 
+Open your terminal and navigate the Android skd sub directory platform-tools type in the following command to dump the log to the screen. 
 
     $adb logcat -d 
 
 The command above will produce the following output: 
 
-<insert animated .gif here> 
+<img src="http://postimg.org/image/6fiukat1r/" width="400">
 
     
