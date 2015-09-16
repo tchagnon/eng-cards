@@ -97,7 +97,7 @@ time, weather, birthday reminders, chore reminders, stock prices, XKCD, etc.
 
 [HomeMirror on GitHub](https://github.com/HannahMitt/HomeMirror)
 
-###Command Line Pandora Client For Mac
+###Command Line Pandora Client for Mac
 
 Skip the ads without upgrading and more importantly free yourself from the unnecessary bloat of a GUI. That's right a simple but powerful command line Pandora Client in less than two minutes. 
 
@@ -114,7 +114,7 @@ Step three: Run Pianobar
 
     pianobar
 
-<img src="http://s7.postimg.org/6mxhmjbob/pandora_command.gif" width="400"
+<img src="http://s7.postimg.org/6mxhmjbob/pandora_command.gif" width="400">
 
 ## cURL
 
