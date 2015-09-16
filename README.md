@@ -97,6 +97,25 @@ time, weather, birthday reminders, chore reminders, stock prices, XKCD, etc.
 
 [HomeMirror on GitHub](https://github.com/HannahMitt/HomeMirror)
 
+###Command Line Pandora Client For Mac
+
+Skip the ads without upgrading and more importantly free yourself from the unnecessary bloat of a GUI. That's right a simple but powerful command line Pandora Client in less than two minutes. 
+
+Step one: Install Homebrew (you'll thank us later)
+
+    curl -L http://github.com/mxcl/homebrew/tarball/master | tar xz --strip 1 -C /usr/local
+
+Step two: Install Pianobar
+
+    brew install pianobar
+
+Step three: Run Pianobar
+
+
+    pianobar
+
+<img src="http://s7.postimg.org/6mxhmjbob/pandora_command.gif" width="400"
+
 ## cURL
 
 ###Word Definitions from the Command Line
@@ -188,6 +207,20 @@ CockroachDB will implement efficient, full-serializable distributed transations.
 
 [CockroachDB on GitHub](https://github.com/cockroachdb/cockroach)
 
+###Android 
 
+##Retrieve System Logs from Your Device 
+
+When your application crashes and the device isn't connected to a computer you still need the system logs to uncover what went wrong and luckily there's a really powerful and free tool for that called Android Debug Bridge (adb). 
+
+In order to use adb with a device connected over USB, you must enable USB debugging in the device system settings under Developer options. 
+
+Open your terminal and type in the following command to dump the log to the screen. 
+
+    $adb logcat -d 
+
+The command above will produce the following output: 
+
+<insert animated .gif here> 
 
     
