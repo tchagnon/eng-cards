@@ -115,7 +115,6 @@ Step three: Run Pianobar
     pianobar
 
 <img src="http://s7.postimg.org/6mxhmjbob/pandora_command.gif" width="400">
-<img src="http://d64i.imgup.net/android_ad7c31.gif" width="400">
 
 ## cURL
 
@@ -221,7 +220,5 @@ Open your terminal and navigate the Android skd sub directory platform-tools typ
     $adb logcat -d 
 
 The command above will produce the following output: 
-
-<img src="http://d64i.imgup.net/android_ad7c31.gif" width="400">
 
     
