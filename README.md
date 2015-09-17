@@ -221,6 +221,6 @@ Open your terminal and navigate the Android skd sub directory platform-tools typ
 
 The command above will produce the following output: 
 
-<img src="http://postimg.org/image/6fiukat1r/" width="400">
+<img src="http://d64i.imgup.net/android_ad7c31.gif" width="400">
 
     
