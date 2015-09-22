@@ -15,6 +15,7 @@
   - [Instantly preview Markdown from Vim](#instantly-preview-markdown-from-vim)
   - [Use a Vim-style editor in XCode](#use-a-vim-style-editor-in-xcode)
   - [Manage Vim plugins with Vundle](#manage-vim-plugins-with-vundle)
+  - [Toggle paste mode with \p](#toggle-paste-mode-with-%5Cp)
 - [Swift](#swift)
   - [Range Operators](#range-operators)
 - [Projects](#projects)
