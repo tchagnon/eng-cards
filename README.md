@@ -91,6 +91,31 @@ your `~/.vimrc`
 
 ![vundle-installer-screenshot](http://i.imgur.com/Rueh7Cc.png)
 
+### Toggle paste mode with \p
+
+Auto-indenting, key mappings and other settings can mess up the formatting and
+indentation when pasting code into Vim.  To avoid this problem, Vim provides a
+paste mode that turns these features off in insert mode.  To enable or disable
+paste mode:
+
+    :set paste
+    :set nopaste
+
+Binding a fast key sequence to `pastetoggle` will make it quick and easy to turn
+`paste` mode on and off.  For example, put the following in your `.vimrc`:
+
+    set pastetoggle=<Leader>p
+
+`<Leader>` defaults to the backslash `\` character if you don't have a custom
+[mapleader](http://usevim.com/2012/07/20/vim101-leader/) set.
+To use this, enter insert mode, then type the `\` and `p` keys sequentially.
+You should see:
+
+    -- INSERT (paste) --
+
+and be able to paste without broken formatting.  Type `\` `p` again to turn off
+paste mode.
+
 ## Swift
 
 ### Range Operators
