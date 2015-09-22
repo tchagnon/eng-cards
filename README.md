@@ -91,6 +91,8 @@ your `~/.vimrc`
 
 ![vundle-installer-screenshot](http://i.imgur.com/Rueh7Cc.png)
 
+[Vundle on GitHub](https://github.com/VundleVim/Vundle.vim)
+
 ### Toggle paste mode with \p
 
 Auto-indenting, key mappings and other settings can mess up the formatting and
@@ -100,6 +102,8 @@ paste mode:
 
     :set paste
     :set nopaste
+
+[![vim-paste](images/vim-paste.gif)](https://asciinema.org/a/26660?autoplay=1)
 
 Binding a fast key sequence to `pastetoggle` will make it quick and easy to turn
 `paste` mode on and off.  For example, put the following in your `.vimrc`:
@@ -115,6 +119,8 @@ You should see:
 
 and be able to paste without broken formatting.  Type `\` `p` again to turn off
 paste mode.
+
+[VimTips Wiki](http://vim.wikia.com/wiki/Toggle_auto-indenting_for_code_paste)
 
 ## Swift
 
