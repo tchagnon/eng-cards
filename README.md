@@ -1,5 +1,36 @@
 # eng-cards
 
+**Table of Contents**
+
+<!-- To update Table of Contents:
+  npm install -g doctoc
+  doctoc README.md -->
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [Vim](#vim)
+  - [Avoiding the Escape Key](#avoiding-the-escape-key)
+  - [Instantly preview Markdown from Vim](#instantly-preview-markdown-from-vim)
+  - [Use a Vim-style editor in XCode](#use-a-vim-style-editor-in-xcode)
+  - [Manage Vim plugins with Vundle](#manage-vim-plugins-with-vundle)
+- [Swift](#swift)
+  - [Range Operators](#range-operators)
+- [Projects](#projects)
+  - [Make a programmable mirror](#make-a-programmable-mirror)
+  - [Command Line Pandora Client for Mac](#command-line-pandora-client-for-mac)
+- [cURL](#curl)
+  - [Word Definitions from the Command Line](#word-definitions-from-the-command-line)
+  - [Customize cURL's Output](#customize-curls-output)
+- [Open Source Projects](#open-source-projects)
+  - [Neovim - Next Generation Vim Text Editor](#neovim---next-generation-vim-text-editor)
+  - [CockroachDB - Google Scale for the Masses](#cockroachdb---google-scale-for-the-masses)
+- [Android](#android)
+  - [Retrieve System Logs from Your Device](#retrieve-system-logs-from-your-device)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Vim
 
 ### Avoiding the Escape Key
@@ -50,7 +81,7 @@ right inside XCode's editor.
 
 [XVim on GitHub](https://github.com/XVimProject/XVim)
 
-## Manage Vim plugins with Vundle
+### Manage Vim plugins with Vundle
 
 Automatically manage all of your vim plugins and scripts with Vundle, a plugin
 manager for Vim.  Gone are the days of manually downloading, extracting and
@@ -167,9 +198,9 @@ Here are the other special variables available in case you want to customize the
 
     url_effective, http_code, http_connect, time_total, time_namelookup, time_connect, time_pretransfer, time_redirect, time_starttransfer, size_download, size_upload, size_header, size_request, speed_download, speed_upload, content_type, num_connects, num_redirects, ftp_entry_path
 
-###Open Source Projects
+##Open Source Projects
 
-##Neovim - Next Generation Vim Text Editor 
+###Neovim - Next Generation Vim Text Editor
 
 The Vim text editor has been loved by a generation of users. We're aggressively refactoring Vim to ensure it stays relevant in the future. 
 
@@ -189,7 +220,7 @@ Any program will be able to include NeoVim commands right in the application.
 
 [neovim on GitHub](https://github.com/neovim/neovim)
 
-##CockroachDB - Google Scale for the Masses
+###CockroachDB - Google Scale for the Masses
 
 Finally, a db as indestructible as a cockroach. While at Google we fell in love with Spanner, Google's solution to juggling data between millions of database servers, so we decided to create an open source project to bring that scalability to the masses. 
 
@@ -207,9 +238,9 @@ CockroachDB will implement efficient, full-serializable distributed transations.
 
 [CockroachDB on GitHub](https://github.com/cockroachdb/cockroach)
 
-###Android 
+##Android
 
-##Retrieve System Logs from Your Device 
+###Retrieve System Logs from Your Device
 
 When your application crashes and the device isn't connected to a computer you still need the system logs to uncover what went wrong and luckily there's a really powerful and free tool for that called Android Debug Bridge (adb). 
 
