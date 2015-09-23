@@ -123,6 +123,30 @@ paste mode.
 
 [VimTips Wiki](http://vim.wikia.com/wiki/Toggle_auto-indenting_for_code_paste)
 
+### Turn on line numbering
+
+Line numbers can be very important to using vim effectively.  Most normal mode
+commands take optional line number or repeat count.  For example: `8gg` will jump
+to line 8.  To turn on and off line numbers use:
+
+    :set number
+    :set nonumber
+
+It can also be helpful to set a different color scheme for the line number
+columns, to clearly distinguish them from the buffer text.
+
+    :highlight LineNr ctermfg=black ctermbg=gray
+
+Some commands work better with relative line numbers.  Typing `3j` will move
+down by 3 lines from the current position, or `4dd` will delete 4 lines.  For
+these, it can be helpful to set relative line numbering:
+
+    :set relativenumber
+
+![vim-number](images/vim-number.gif)
+
+[VimTips Wiki](http://vim.wikia.com/wiki/Display_line_numbers)
+
 ## Swift
 
 ### Range Operators
