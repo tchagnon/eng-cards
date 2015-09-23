@@ -126,14 +126,14 @@ paste mode.
 ### Turn on line numbering
 
 Line numbers can be very important to using vim effectively.  Most normal mode
-commands take optional line number or repeat count.  For example: `8gg` will jump
+commands take optional line number or repeat count.  For example, `8gg` will jump
 to line 8.  To turn on and off line numbers use:
 
     :set number
     :set nonumber
 
 It can also be helpful to set a different color scheme for the line number
-columns, to clearly distinguish them from the buffer text.
+columns to clearly distinguish them from the buffer text.
 
     :highlight LineNr ctermfg=black ctermbg=gray
 
