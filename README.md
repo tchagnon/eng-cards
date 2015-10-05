@@ -498,7 +498,7 @@ Behaviors are an amazing way to automatically have Xcode perform actions based o
 
 **Update App Display Name**
 
-One commone issue folks run into is that they create a project only to out that your display name isn't what you want. I'll often see people renaming and refactoring their entire project name to show the proper display name. You'll be happy to know that there is a key you can add tto your project info plist. Add a new key Bundle display name. 
+One common issue folks run into is that they create a project only to find out that their display name isn't what they wanted. I'll often see people renaming and refactoring their entire project name to show the proper display name. You'll be happy to know that there is a key you can add to your project info plist to fix this problem. Add a new key Bundle display name. 
 
 ![xcode-tip-1](images/xcode-tip-1.jpg)
 
@@ -506,7 +506,7 @@ One commone issue folks run into is that they create a project only to out that 
 
 **Documentation Generation**
 
-Instead of manually typing out comment blocks download and install the plugin VVDocumenter-Xcode. This will let you quickly generate comments by just typing three slashes (///). 
+Instead of manually typing out comment blocks download and install the plugin [VVDocumenter-Xcode](https://github.com/onevcat/VVDocumenter-Xcode). This will let you quickly generate comments by just typing three slashes (///). 
 
 ![xcode-tip-2](images/xcode-tip-2.gif)
 
