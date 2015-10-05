@@ -16,11 +16,13 @@
   - [Use a Vim-style editor in XCode](#use-a-vim-style-editor-in-xcode)
   - [Manage Vim plugins with Vundle](#manage-vim-plugins-with-vundle)
   - [Toggle paste mode with \p](#toggle-paste-mode-with-%5Cp)
+  - [Turn on line numbering](#turn-on-line-numbering)
 - [Swift](#swift)
   - [Range Operators](#range-operators)
 - [Projects](#projects)
   - [Make a programmable mirror](#make-a-programmable-mirror)
   - [Command Line Pandora Client for Mac](#command-line-pandora-client-for-mac)
+  - [Pi-rate Radio](#pi-rate-radio)
 - [cURL](#curl)
   - [Word Definitions from the Command Line](#word-definitions-from-the-command-line)
   - [Customize cURL's Output](#customize-curls-output)
@@ -206,6 +208,8 @@ Step three: Run Pianobar
 ###Pi-rate Radio 
 
 A simple, but effective hack from Make shows how you can turn your Raspberry Pi into a mobile FM transmitter to share your tunes with those around you. 
+
+Details available on [Makezine.com](http://makezine.com/2014/03/14/yar-matey-streaming-raspberry-pirate-radio-is-as-easy-as-pipe/). 
 
 <img src="http://s19.postimg.org/sj1vdojc3/pirate_radio_raspberry_pi_100573027_gallery.png" width="400"> 
 
