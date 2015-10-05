@@ -1,5 +1,37 @@
 # eng-cards
 
+**Table of Contents**
+
+<!-- To update Table of Contents:
+  npm install -g doctoc
+  doctoc README.md -->
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [Vim](#vim)
+  - [Avoiding the Escape Key](#avoiding-the-escape-key)
+  - [Instantly preview Markdown from Vim](#instantly-preview-markdown-from-vim)
+  - [Use a Vim-style editor in XCode](#use-a-vim-style-editor-in-xcode)
+  - [Manage Vim plugins with Vundle](#manage-vim-plugins-with-vundle)
+  - [Toggle paste mode with \p](#toggle-paste-mode-with-%5Cp)
+- [Swift](#swift)
+  - [Range Operators](#range-operators)
+- [Projects](#projects)
+  - [Make a programmable mirror](#make-a-programmable-mirror)
+  - [Command Line Pandora Client for Mac](#command-line-pandora-client-for-mac)
+- [cURL](#curl)
+  - [Word Definitions from the Command Line](#word-definitions-from-the-command-line)
+  - [Customize cURL's Output](#customize-curls-output)
+- [Open Source Projects](#open-source-projects)
+  - [Neovim - Next Generation Vim Text Editor](#neovim---next-generation-vim-text-editor)
+  - [CockroachDB - Google Scale for the Masses](#cockroachdb---google-scale-for-the-masses)
+- [Android](#android)
+  - [Retrieve System Logs from Your Device](#retrieve-system-logs-from-your-device)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Vim
 
 ### Avoiding the Escape Key
@@ -50,7 +82,7 @@ right inside XCode's editor.
 
 [XVim on GitHub](https://github.com/XVimProject/XVim)
 
-## Manage Vim plugins with Vundle
+### Manage Vim plugins with Vundle
 
 Automatically manage all of your vim plugins and scripts with Vundle, a plugin
 manager for Vim.  Gone are the days of manually downloading, extracting and
@@ -59,6 +91,61 @@ configuring all your plugins simple.  Just refer to each plugin's GitHub repo in
 your `~/.vimrc`
 
 ![vundle-installer-screenshot](http://i.imgur.com/Rueh7Cc.png)
+
+[Vundle on GitHub](https://github.com/VundleVim/Vundle.vim)
+
+### Toggle paste mode with \p
+
+Auto-indenting, key mappings and other settings can mess up the formatting and
+indentation when pasting code into Vim.  To avoid this problem, Vim provides a
+paste mode that turns these features off in insert mode.  To enable or disable
+paste mode:
+
+    :set paste
+    :set nopaste
+
+[![vim-paste](images/vim-paste.gif)](https://asciinema.org/a/26660?autoplay=1)
+
+Binding a fast key sequence to `pastetoggle` will make it quick and easy to turn
+`paste` mode on and off.  For example, put the following in your `.vimrc`:
+
+    set pastetoggle=<Leader>p
+
+`<Leader>` defaults to the backslash `\` character if you don't have a custom
+[mapleader](http://usevim.com/2012/07/20/vim101-leader/) set.
+To use this, enter insert mode, then type the `\` and `p` keys sequentially.
+You should see:
+
+    -- INSERT (paste) --
+
+and be able to paste without broken formatting.  Type `\` `p` again to turn off
+paste mode.
+
+[VimTips Wiki](http://vim.wikia.com/wiki/Toggle_auto-indenting_for_code_paste)
+
+### Turn on line numbering
+
+Line numbers can be very important to using vim effectively.  Most normal mode
+commands take optional line number or repeat count.  For example, `8gg` will jump
+to line 8.  To turn on and off line numbers use:
+
+    :set number
+    :set nonumber
+
+It can also be helpful to set a different color scheme for the line number
+columns to clearly distinguish them from the buffer text.
+
+    :highlight LineNr ctermfg=black ctermbg=gray
+
+Some commands work better with relative line numbers.  Typing `3j` will move
+down by 3 lines from the current position, or `4dd` will delete 4 lines.  For
+these, it can be helpful to set relative line numbering:
+
+    :set relativenumber
+
+![vim-number](images/vim-number.gif)
+
+[VimTips Wiki](http://vim.wikia.com/wiki/Display_line_numbers)
 
 ## Swift
 
@@ -173,9 +260,9 @@ Here are the other special variables available in case you want to customize the
 
     url_effective, http_code, http_connect, time_total, time_namelookup, time_connect, time_pretransfer, time_redirect, time_starttransfer, size_download, size_upload, size_header, size_request, speed_download, speed_upload, content_type, num_connects, num_redirects, ftp_entry_path
 
-###Open Source Projects
+##Open Source Projects
 
-##Neovim - Next Generation Vim Text Editor 
+###Neovim - Next Generation Vim Text Editor
 
 The Vim text editor has been loved by a generation of users. We're aggressively refactoring Vim to ensure it stays relevant in the future. 
 
@@ -195,7 +282,7 @@ Any program will be able to include NeoVim commands right in the application.
 
 [neovim on GitHub](https://github.com/neovim/neovim)
 
-##CockroachDB - Google Scale for the Masses
+###CockroachDB - Google Scale for the Masses
 
 Finally, a db as indestructible as a cockroach. While at Google we fell in love with Spanner, Google's solution to juggling data between millions of database servers, so we decided to create an open source project to bring that scalability to the masses. 
 
@@ -213,9 +300,9 @@ CockroachDB will implement efficient, full-serializable distributed transations.
 
 [CockroachDB on GitHub](https://github.com/cockroachdb/cockroach)
 
-###Android 
+##Android
 
-##Retrieve System Logs from Your Device 
+###Retrieve System Logs from Your Device
 
 When your application crashes and the device isn't connected to a computer you still need the system logs to uncover what went wrong and luckily there's a really powerful and free tool for that called Android Debug Bridge (adb). 
 
