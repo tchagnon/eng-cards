@@ -23,6 +23,7 @@
   - [Make a programmable mirror](#make-a-programmable-mirror)
   - [Command Line Pandora Client for Mac](#command-line-pandora-client-for-mac)
   - [Pi-rate Radio](#pi-rate-radio)
+  - [Simple Soil Moisture Sensor](#simple-soil-moisture-sensor)
 - [cURL](#curl)
   - [Word Definitions from the Command Line](#word-definitions-from-the-command-line)
   - [Customize cURL's Output](#customize-curls-output)
@@ -212,6 +213,22 @@ A simple, but effective hack from Make shows how you can turn your Raspberry Pi 
 Details available on [Makezine.com](http://makezine.com/2014/03/14/yar-matey-streaming-raspberry-pirate-radio-is-as-easy-as-pipe/). 
 
 <img src="http://s19.postimg.org/sj1vdojc3/pirate_radio_raspberry_pi_100573027_gallery.png" width="400"> 
+
+###Simple Soil Moisture Sensor
+
+This cool Ardunio based project will show you how to create a soil moisture sensor that will light up a LED at a certain moisture level. 
+
+Example source code: 
+    
+    void loop() {
+      int moisture = analogRead(VAL_PROBE); 
+      Serial.println(moisture); 
+        if(moisture > MOISTURE_LEVEL) {
+          LedState(HIGH);
+        }
+    }
+
+![moisture-sensor](images/moisture-sensor.jpg)
 
 ## cURL
 
