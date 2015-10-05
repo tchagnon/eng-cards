@@ -32,6 +32,7 @@
 - [Open Source Projects](#open-source-projects)
   - [Neovim - Next Generation Vim Text Editor](#neovim---next-generation-vim-text-editor)
   - [CockroachDB - Google Scale for the Masses](#cockroachdb---google-scale-for-the-masses)
+  - [Appium - Automation for Apps](#appium---automation-for-apps)
 - [Android](#android)
   - [Retrieve System Logs from Your Device](#retrieve-system-logs-from-your-device)
   - [Android Studio Tips](#android-studio-tips)
@@ -341,6 +342,18 @@ CockroachDB will implement consistent replication via majority consensus between
 CockroachDB will implement efficient, full-serializable distributed transations. 
 
 [CockroachDB on GitHub](https://github.com/cockroachdb/cockroach)
+
+###Appium - Automation for Apps
+
+Appium is an open source test automation framework for use with native and hybrid mobile apps. It drives iOS and Android apps via the WebDriver JSON wire protocol. 
+
+Initially started as a tool for SauceLabs to help customers build a scalable, automated test environment, Appium has taken on a life of its own with a rapidly expanding, diverse developer community. 
+
+Appium wants you! We need your help - get involved today! Let's make it rockium together!! 
+
+![appium](images/appium.gif)
+
+[Appium on GitHub](https://github.com/appium/appium)
 
 ##Android
 
