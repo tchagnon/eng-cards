@@ -24,6 +24,7 @@
   - [Command Line Pandora Client for Mac](#command-line-pandora-client-for-mac)
   - [Pi-rate Radio](#pi-rate-radio)
   - [Simple Soil Moisture Sensor](#simple-soil-moisture-sensor)
+  - [Tweet-a-Pot: Twitter Enabled Coffee Pot](#tweet-a-pot-twitter-enabled-coffee-pot)
 - [cURL](#curl)
   - [Word Definitions from the Command Line](#word-definitions-from-the-command-line)
   - [Customize cURL's Output](#customize-curls-output)
@@ -229,6 +230,12 @@ Example source code:
     }
 
 ![moisture-sensor](images/moisture-sensor.jpg)
+
+###Tweet-a-Pot: Twitter Enabled Coffee Pot 
+
+This amazing Ardunio based project will show you how to create a Twitter enabled cofee pot. That's right with just a bit of code and some hardware, you can kickoff your morning brew with a simple tweet! 
+
+![tweet-a-pot](images/tweet-a-pot.gif)
 
 ## cURL
 
