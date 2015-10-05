@@ -33,6 +33,7 @@
   - [Neovim - Next Generation Vim Text Editor](#neovim---next-generation-vim-text-editor)
   - [CockroachDB - Google Scale for the Masses](#cockroachdb---google-scale-for-the-masses)
   - [Appium - Automation for Apps](#appium---automation-for-apps)
+  - [Flight - An event-driven web framework, from Twitter](#flight---an-event-driven-web-framework-from-twitter)
 - [Android](#android)
   - [Retrieve System Logs from Your Device](#retrieve-system-logs-from-your-device)
   - [Android Studio Tips](#android-studio-tips)
@@ -354,6 +355,14 @@ Appium wants you! We need your help - get involved today! Let's make it rockium 
 ![appium](images/appium.gif)
 
 [Appium on GitHub](https://github.com/appium/appium)
+
+###Flight - An event-driven web framework, from Twitter
+
+Flight is distinct from existing frameworks in that it doesn't prescribe or provide any particular approach to rendering or providing data to a web application. While some web frameworks encourage developers to arrange their code around a prescribed model layer, Flight is organized around the existing DOM model with functionality mapped directly to DOM nodes. 
+
+![flight](images/flight.jpg) 
+
+Contribute to a Twitter project! Checkout our [GitHub issues](https://github.com/flightjs/flight/issues) to see what needs doing To get started, you could try a [helpwanted ticket](https://github.com/flightjs/flight/labels/helpwanted)! 
 
 ##Android
 
