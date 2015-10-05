@@ -29,6 +29,9 @@
 - [cURL](#curl)
   - [Word Definitions from the Command Line](#word-definitions-from-the-command-line)
   - [Customize cURL's Output](#customize-curls-output)
+  - [Fetch Multiple Files at a Time](#fetch-multiple-files-at-a-time)
+  - [Download a File Based on Modified Date/Time](#download-a-file-based-on-modified-datetime)
+  - [Pass HTTP Authentication in cURL](#pass-http-authentication-in-curl)
 - [Open Source Projects](#open-source-projects)
   - [Neovim - Next Generation Vim Text Editor](#neovim---next-generation-vim-text-editor)
   - [CockroachDB - Google Scale for the Masses](#cockroachdb---google-scale-for-the-masses)
@@ -304,6 +307,42 @@ The above command results in the following output:
 Here are the other special variables available in case you want to customize the output some more. 
 
     url_effective, http_code, http_connect, time_total, time_namelookup, time_connect, time_pretransfer, time_redirect, time_starttransfer, size_download, size_upload, size_header, size_request, speed_download, speed_upload, content_type, num_connects, num_redirects, ftp_entry_path
+
+###Fetch Multiple Files at a Time 
+
+You can download multiple files in a single shot by specifying the URLs on the command line: 
+
+    $curl -O URL1 -O URL2
+
+The below command will download both index.html and gettext.html and save it in the same name under the current directory. 
+
+    $ curl -O http://www.gnu.org/software/gettext/manual/html_node/index.html -O http://www.gnu.org/software/gettext/manual/gettext.html
+
+Please note that when we download multiple files from the same server as shown above, cURL will try to re-use the connection. 
+
+###Download a File Based on Modified Date/Time
+
+You can get the files that are modified after a particular time using -z option in cURL. This will work for both FTP & HTTP: 
+
+    $curl -z 21-Dec-14 http://www.example.com/yy.html
+
+The above command will download the yy.html only if it is modified later than the given date and time. 
+
+    $curl -z -21-Dec-14 http://www.example.com/yy.html 
+
+The above command will download the yy.html, if it is modified before the given date and time. 
+
+Refer to 'man curl_getdate' for the various syntax supported for the date expression. 
+
+
+###Pass HTTP Authentication in cURL 
+
+Sometimes, websites will require a username and password to view the content of a page. With the help of -u option, we can pass those credentials from cURL to the web server as shown below: 
+
+    $curl -u username:password URL 
+
+Please note that by default curl uses Basic HTTP Authentication. You can specify other authentication methods using -ntlm | -digest. 
+
 
 ##Open Source Projects
 
