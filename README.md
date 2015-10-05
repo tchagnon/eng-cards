@@ -195,9 +195,13 @@ a range that includes both values.
 Swift 2.0 takes the advanced object-oriented Swift programming language and extends it: 
 
 **Error Handling.** Throw, catch, manage, and handle errors in Swift. Interoperate seamlessly with NSError. 
+
 **Availability.** Adopt new APIs while still deploying back to older OS versions, with compile-time errors to catch situations when you've used API that isn't available on the deployment target.
+
 **Protocol extensions.** Add methods and properties to any class that confroms to a protocol. Re-use more of your code. 
+
 **Testability.** Write tests of Swift 2.0 frameworks and apps with access to all your public and internal routines. 
+
 **Swift 1.2 to 2.0 Migrator.** Efficiently upgrade your existing Swift source code to take advantage of Swift 2.0. 
 
 In addition to these new features, the big news is that Apple will be making Swift open source. 
