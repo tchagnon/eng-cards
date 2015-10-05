@@ -46,6 +46,12 @@
   - [Android Studio Tips](#android-studio-tips-2)
   - [Android Studio Tips](#android-studio-tips-3)
   - [Android Studio Tips](#android-studio-tips-4)
+- [Xcode](#xcode)
+  - [Xcode Tips](#xcode-tips)
+  - [Xcode Tips](#xcode-tips-1)
+  - [Xcode Tips](#xcode-tips-2)
+  - [Xcode Tips](#xcode-tips-3)
+  - [Xcode Tips](#xcode-tips-4)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -477,3 +483,69 @@ The SmartType code completion greatly helps to find methods and variables that a
 ###Android Studio Tips
 
 Did you know that you can close tabs in the editor and the tool windows of Android Studio without actually using the context menu commands? It is enough to point with your mouse cursor to a tab to be closed, and click the middle mouse button, or just use the Shift+click combination. 
+
+##Xcode 
+
+###Xcode Tips 
+
+**Xcode Behaviors**
+
+Behaviors are an amazing way to automatically have Xcode perform actions based on your actions. Imagine if you are running your project and hit a breakpoint or error. By default Xcode will automatically open the debugger windows, navigate to the code in error, and completely throw your editor out of sync. Let's explore creating a new behavior to stop that from happening...
+
+[xmcgraw.com](http://www.xmcgraw.com/13-xcode-tips-that-will-help-you-conquer-xcode/)
+
+###Xcode Tips
+
+**Update App Display Name**
+
+One commone issue folks run into is that they create a project only to out that your display name isn't what you want. I'll often see people renaming and refactoring their entire project name to show the proper display name. You'll be happy to know that there is a key you can add tto your project info plist. Add a new key Bundle display name. 
+
+![xcode-tip-1](images/xcode-tip-1.jpg)
+
+###Xcode Tips
+
+**Documentation Generation**
+
+Instead of manually typing out comment blocks download and install the plugin VVDocumenter-Xcode. This will let you quickly generate comments by just typing three slashes (///). 
+
+![xcode-tip-2](images/xcode-tip-2.gif)
+
+The side benefit from doing this is that Xcode will use these comments to show preview documenttion of the method. By pressing Option + Click on the method you'll see a documentation quick look. 
+
+![xcode-tip-3](images/xcode-tip-3.jpg)
+
+###Xcode Tips
+
+**Enhanced Debugging with Chisel**
+
+Facebook built a collection of LLDB commands to help make debugging a little more enjoyable. If you don't have these take the time to jump to [Github](https://github.com/facebook/chisel) to install them. To give you a sense of what this provides here is a list of a few of my favorite commands. 
+
+**views**: print the recursive view description for the key window
+
+**visualize**: open a UIImage, CGImageRef, UIView, or CALayer in Preview.app on your Mac
+
+**show/hide**: show or hide the given view or layer
+
+**border/unborder**: show or hide a border to a view or layer to visualize where it is
+
+There is a lot to Chisel so jump into lldb and type help to review a list of user-defined commands. 
+
+###Xcode Tips 
+
+**6 Key Commands Worth Memorizing & Setting**
+
+Some of these commands are not set by default, but I encourage you to open Preferences > Key Bindings to modify them as needed. 
+
+**Command + /**: comment/uncomment code
+
+**Command + [or]**: index/unindent code
+
+**Control + s**: select word
+
+**Option + Command + e**: edit the selected word based on the current scope
+
+**Option +Left/Right Arrow**: navigate words
+
+**esc**: bring up possible auto-completion choices
+
+There are many, many more key commands. Find the commands that fit your style and roll with it. 
