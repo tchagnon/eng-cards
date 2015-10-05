@@ -25,6 +25,7 @@
   - [Pi-rate Radio](#pi-rate-radio)
   - [Simple Soil Moisture Sensor](#simple-soil-moisture-sensor)
   - [Tweet-a-Pot: Twitter Enabled Coffee Pot](#tweet-a-pot-twitter-enabled-coffee-pot)
+  - [3D Printed Retro Apple II Smartwatch](#3d-printed-retro-apple-ii-smartwatch)
 - [cURL](#curl)
   - [Word Definitions from the Command Line](#word-definitions-from-the-command-line)
   - [Customize cURL's Output](#customize-curls-output)
