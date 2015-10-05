@@ -237,6 +237,14 @@ This amazing Ardunio based project will show you how to create a Twitter enabled
 
 ![tweet-a-pot](images/tweet-a-pot.gif)
 
+###3D Printed Retro Apple II Smartwatch 
+
+Forget the Apple Watch, build yourself this sweeet retro Apple II smartwatch and hit the streets with a sensational tribute to the 1980s. 
+
+Download the complete project instructions on [instructables.com](http://www.instructables.com/id/Apple-II-Watch/). 
+
+![apple-II-watch](images/apple-II-watch.jpg)
+
 ## cURL
 
 ###Word Definitions from the Command Line
