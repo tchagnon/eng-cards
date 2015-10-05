@@ -34,6 +34,7 @@
   - [CockroachDB - Google Scale for the Masses](#cockroachdb---google-scale-for-the-masses)
   - [Appium - Automation for Apps](#appium---automation-for-apps)
   - [Flight - An event-driven web framework, from Twitter](#flight---an-event-driven-web-framework-from-twitter)
+  - [Genie - Hadoop job and resource management](#genie---hadoop-job-and-resource-management)
 - [Android](#android)
   - [Retrieve System Logs from Your Device](#retrieve-system-logs-from-your-device)
   - [Android Studio Tips](#android-studio-tips)
@@ -363,6 +364,15 @@ Flight is distinct from existing frameworks in that it doesn't prescribe or prov
 ![flight](images/flight.jpg) 
 
 Contribute to a Twitter project! Checkout our [GitHub issues](https://github.com/flightjs/flight/issues) to see what needs doing To get started, you could try a [helpwanted ticket](https://github.com/flightjs/flight/labels/helpwanted)! 
+
+###Genie - Hadoop job and resource management 
+
+Genie abstracts away the physical details of various (potentially transient) Hadoop resources in the cloud, and provides a REST-ful execution service to submit and monitor Hadoop, Hive and Pig jobs wiothut having to install any Hadoop clients. 
+
+![genie](images/genie.png)
+
+Join the Netflix open source team today and maybe we'll grant you three wishes! 
+[Genie on GitHub](https://github.com/Netflix/genie)
 
 ##Android
 
