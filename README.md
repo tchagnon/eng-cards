@@ -116,6 +116,12 @@ Step three: Run Pianobar
 
 <img src="http://s7.postimg.org/6mxhmjbob/pandora_command.gif" width="400">
 
+###Pi-rate Radio 
+
+A simple, but effective hack from Make shows how you can turn your Raspberry Pi into a mobile FM transmitter to share your tunes with those around you. 
+
+<img src="http://s19.postimg.org/sj1vdojc3/pirate_radio_raspberry_pi_100573027_gallery.png" width="400"> 
+
 ## cURL
 
 ###Word Definitions from the Command Line
@@ -220,5 +226,7 @@ Open your terminal and navigate the Android skd sub directory platform-tools typ
     $adb logcat -d 
 
 The command above will produce the following output: 
+
+![Screenshot](http://dl.dropbox.com/u/28956267/instant-markdown-demo_thumb.gif)
 
     
