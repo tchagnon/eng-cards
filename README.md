@@ -34,6 +34,11 @@
   - [CockroachDB - Google Scale for the Masses](#cockroachdb---google-scale-for-the-masses)
 - [Android](#android)
   - [Retrieve System Logs from Your Device](#retrieve-system-logs-from-your-device)
+  - [Android Studio Tips](#android-studio-tips)
+  - [Android Studio Tips](#android-studio-tips-1)
+  - [Android Studio Tips](#android-studio-tips-2)
+  - [Android Studio Tips](#android-studio-tips-3)
+  - [Android Studio Tips](#android-studio-tips-4)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -353,4 +358,32 @@ The command above will produce the following output:
 
 ![Screenshot](http://dl.dropbox.com/u/28956267/instant-markdown-demo_thumb.gif)
 
-    
+###Android Studio Tips
+
+To quickly see the documentation for a class or method at caret, press F1 (View | Quick Documentation). 
+
+![android-tip-1](images/android-tip-1.png)
+
+###Android Studio Tips
+
+To navigate to the declarion of a class, method or variable used somewhere in the code, position the caret at the usage and press command-B (Navigate | Declaration). You can also click the mouse on usages with the Ctrl key pressed to jump to declartions. 
+
+![android-tip-2](images/android-tip-2.png)
+
+###Android Studio Tips
+
+You can easily rename your classes, methods and variables with automatic correction of all places where they are used. 
+
+To try it, place the caret at the symbol you want to rename, and press F6(Refactor | Rename). Type the new name in the popup window that appears, or select one of the suggested names, and press Enter. 
+
+![android-tip-3](images/android-tip-3.png)
+
+###Android Studio Tips
+
+The SmartType code completion greatly helps to find methods and variables that are suitable in the current context, by analyzing the expected type of the whole expression. So doing, Android Studio pinpoints the top five most suitable results and highlights them on the green background. For example, type
+
+![android-tip-4](images/android-tip-4.png)
+
+###Android Studio Tips
+
+Did you know that you can close tabs in the editor and the tool windows of Android Studio without actually using the context menu commands? It is enough to point with your mouse cursor to a tab to be closed, and click the middle mouse button, or just use the Shift+click combination. 
